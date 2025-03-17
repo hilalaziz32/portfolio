@@ -32,21 +32,21 @@ export function FloatingDockDemo() {
       ),
       href: "#",
     },
-    {
-      title: "Facebook",
-      icon: (
-        <FaFacebookF className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
+    // {
+    //   title: "Facebook",
+    //   icon: (
+    //     <FaFacebookF className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //   ),
+    //   href: "#",
+    // },
  
-    {
-      title: "Instagram",
-      icon: (
-        <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
+    // {
+    //   title: "Instagram",
+    //   icon: (
+    //     <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //   ),
+    //   href: "#",
+    // },
 
     {
       title: "Twitter",

@@ -9,7 +9,7 @@ import { FloatingDockDemo } from "./Flooting";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { IconBrandGithub, IconBrandX } from "@tabler/icons-react";
 import { SiFiverr } from "react-icons/si";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+// import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -89,12 +89,12 @@ const Hero = () => {
           <Link href={"/"}>  <div className="flex justify-center items-center rounded-full bg-gray-200 dark:bg-neutral-800 p-2">
             <SiFiverr className="text-2xl" />
           </div> </Link>
-          <Link href={"/"}>  <div className="flex justify-center items-center rounded-full bg-gray-200 dark:bg-neutral-800 p-2">
+          {/* <Link href={"/"}>  <div className="flex justify-center items-center rounded-full bg-gray-200 dark:bg-neutral-800 p-2">
             <FaFacebookF className="text-2xl" />
           </div> </Link>
           <Link href={"/"}>  <div className="flex justify-center items-center rounded-full bg-gray-200 dark:bg-neutral-800 p-2">
             <FaInstagram className="text-2xl" />
-          </div> </Link>
+          </div> </Link> */}
           <Link href={"/"}>  <div className="flex justify-center items-center rounded-full bg-gray-200 dark:bg-neutral-800 p-2">
             <IconBrandX className="text-xl" />
           </div> </Link>
